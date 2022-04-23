@@ -1,0 +1,26 @@
+
+================================================================
+======== Log Rotated - 4/22/2022, 12:00:00 AM                   
+================================================================
+> txaEvent "playerBanned" "{＂author＂:＂stryker25＂,＂reason＂:＂Conflict of Interests＂,＂actionId＂:＂BTSM-HWX7＂,＂target＂:[＂license:9ef4cb8af5c875fe5bda9788bfcca855608afaaa＂],＂expiration＂:false}"
+> txaDropIdentifiers "license:9ef4cb8af5c875fe5bda9788bfcca855608afaaa" "[txAdmin] (stryker25) You have been permanently banned from this server for ＂Conflict of Interests＂."
+[38;5;84m[      script:monitor] [txAdminClient] No players found to kick
+> txaEvent "adminsUpdated" "[]"
+> txaEvent "adminsUpdated" "[]"
+[38;5;173m[ script:connectqueue] QUEUE: Stryker25[steam:1100001094e6f09] was placed 1/1 in queue
+[38;5;173m[ script:connectqueue] QUEUE: Stryker25[steam:1100001094e6f09] is loading into the server
+[38;5;134m[      script:qb-core] [qb-core:LOG] Stryker25 PLAYER SAVED!
+[script:qb-multichara] [qb-core] Stryker25 (Citizen ID: QDX16069) has succesfully loaded!
+[      script:qb-core] [0m[qb-core:LOG] Stryker25 PLAYER SAVED!
+[38;5;134m[      script:qb-core] [qb-core:LOG] Stryker25 PLAYER SAVED!
+[38;5;134m[      script:qb-core] [qb-core:LOG] Stryker25 PLAYER SAVED!
+[38;5;134m[      script:qb-core] [qb-core:LOG] Stryker25 PLAYER SAVED!
+[38;5;173m[ script:connectqueue] QUEUE: Renato.denac[steam:11000014cb78d1a] was placed 1/1 in queue
+[38;5;173m[ script:connectqueue] QUEUE: Renato.denac[steam:11000014cb78d1a] is loading into the server
+[      script:qb-core] [qb-core:LOG] Renato.denac PLAYER SAVED!
+[script:qb-multichara] [qb-core] Renato.denac has succesfully loaded!
+[      script:qb-core] [qb-core:LOG] Renato.denac PLAYER SAVED!
+[38;5;134m[      script:qb-core] [qb-core:LOG] Renato.denac PLAYER SAVED!
+[ citizen-server-impl] sync thread hitch warning: timer interval of 115 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 105 milliseconds
+[ citizen-server-main] -> Quitting: SIGHUP received

@@ -1,0 +1,44 @@
+{
+  "global": {
+    "serverName": "Spectral-Verse RP",
+    "language": "en",
+    "menuEnabled": true,
+    "menuAlignRight": false,
+    "menuPageKey": "Backquote"
+  },
+  "logger": {},
+  "monitor": {
+    "restarterSchedule": [],
+    "restarterScheduleWarnings": [
+      30,
+      15,
+      10,
+      5,
+      4,
+      3,
+      2,
+      1
+    ]
+  },
+  "playerController": {
+    "onJoinCheckBan": true,
+    "onJoinCheckWhitelist": false,
+    "minSessionTime": 15,
+    "whitelistRejectionMessage": "You are not yet whitelisted in this server.\nPlease join http://discord.gg/example.\nYour Request ID: <id>",
+    "wipePendingWLOnStart": true
+  },
+  "webServer": {},
+  "discordBot": {
+    "enabled": false,
+    "prefix": "/",
+    "statusMessage": "**IP:** `change-me:<port>`\n**Players:** <players>\n**Uptime:** <uptime>"
+  },
+  "fxRunner": {
+    "serverDataPath": "C:/Users/Administrator/Desktop/Spectral-Verse RP/txData/QBCoreFramework_56FDA9.base/",
+    "cfgPath": "C:/Users/Administrator/Desktop/Spectral-Verse RP/txData/QBCoreFramework_56FDA9.base/server.cfg",
+    "commandLine": "",
+    "onesync": "on",
+    "autostart": true,
+    "quiet": false
+  }
+}

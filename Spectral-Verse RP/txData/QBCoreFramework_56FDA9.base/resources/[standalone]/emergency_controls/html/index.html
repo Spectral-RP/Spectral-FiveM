@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="assets/style.css">
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+	<script src="assets/index.js" type="module"></script>
+	<title>Emergency Controls</title>
+</head>
+
+<body>
+    <div id="control_hud" class="control_hud" style="display:none;">
+        <div id="chirpOff" class="chirpOff" style="display:block;"></div>
+        <div id="chirpOn" class="chirpOn" style="display:none;"></div>
+        <div id="sirenOneOff" class="sirenOneOff" style="display:block;"></div>
+        <div id="sirenOneOn" class="sirenOneOn" style="display:none;"></div>
+        <div id="sirenTwoOff" class="sirenTwoOff" style="display:block;"></div>
+        <div id="sirenTwoOn" class="sirenTwoOn" style="display:none;"></div>
+        <div id="sirenThreeOff" class="sirenThreeOff" style="display:block;"></div>
+        <div id="sirenThreeOn" class="sirenThreeOn" style="display:none;"></div>
+    </div>
+
+    <div id="container" class="container" style="display:none;">
+        <div class="container-header">
+            <div class="container-header-content">SIREN CUSTOMIZATION</div>
+        </div>
+        <div class="container-page">
+            <div class="container-content">
+                <center>
+                    <form id="select" class="select" name="select" action="#">
+                        <label for="SirenOne">SIREN ONE</label>
+                        <select id="SirenOne" name="SirenOne">
+                            <option value="0">DEFAULT</option>
+                        </select>
+                        <label for="SirenTwo">SIREN TWO</label>
+                        <select id="SirenTwo" name="SirenTwo">
+                            <option value="0">DEFAULT</option>
+                        </select>
+                        <label for="SirenThree">SIREN THREE</label>
+                        <select id="SirenThree" name="SirenThree">
+                            <option value="0">DEFAULT</option>
+                        </select>
+                        <label for="SirenFour">HORN</label>
+                        <select id="SirenFour" name="SirenFour">
+                            <option value="0">DEFAULT</option>
+                        </select>
+                    </form>
+                </center>
+            </div>
+        </div>
+        <div class="container-footer">
+            <div class="container-footer-content">
+                <button id="save" class="save">SAVE</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

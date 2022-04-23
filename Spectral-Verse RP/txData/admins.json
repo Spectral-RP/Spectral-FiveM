@@ -1,0 +1,41 @@
+[
+  {
+    "name": "shadezdamnnn",
+    "master": true,
+    "password_hash": "$2a$11$GTBqdxMyO/F4Ep6fFAUh5uJesRphWhKThQaRUZdmxKyYuRyimTT.i",
+    "providers": {
+      "citizenfx": {
+        "id": "shadezdamnnn",
+        "identifier": "fivem:225962",
+        "data": {
+          "sub": "a1d7ebd69bab5f65f6039a4c6221ec81",
+          "nameid": "https://forum.cfx.re/internal/user/225962",
+          "name": "shadezdamnnn",
+          "picture": "https://forum.cfx.re/user_avatar/forum.cfx.re/shadezdamnnn/256/101814_2.png",
+          "profile": "https://forum.cfx.re/u/shadezdamnnn"
+        }
+      }
+    },
+    "permissions": []
+  },
+  {
+    "name": "stryker25",
+    "master": false,
+    "password_hash": "$2a$11$f3oRZVh2P3XjRl9i3P8SMuQuqijNHCfcVsuZIZH3w4An/O5k2Kioi",
+    "providers": {
+      "citizenfx": {
+        "id": "stryker25",
+        "identifier": "fivem:6677491",
+        "data": {}
+      },
+      "discord": {
+        "id": "368824997885640705",
+        "identifier": "discord:368824997885640705",
+        "data": {}
+      }
+    },
+    "permissions": [
+      "all_permissions"
+    ]
+  }
+]
